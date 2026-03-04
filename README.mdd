@@ -41,3 +41,9 @@ This project integrates computational analysis with environmental microbiology t
 
 ## Files
 - `microbiome_analysis.py` – Full analysis code
+## Skills Demonstrated
+- Microbial community analysis
+- Shannon diversity index computation
+- Statistical hypothesis testing (t-test)
+- Ecological data visualization
+- Computational environmental microbiology
