@@ -1,0 +1,43 @@
+# Microbiome Water Ecology Analysis
+
+## Background
+Contaminated water sources harbor diverse microbial communities that may pose significant public health risks. This project performs a computational comparison of microbial composition between clean and contaminated water samples, using ecological diversity metrics and statistical analysis.
+
+## Research Question
+Which microbial taxa are significantly enriched in contaminated water samples compared to clean water, and how does microbial diversity differ between the two environments?
+
+## Methods
+- Simulated environmental microbiome abundance data (modeled on real ecological patterns)
+- Shannon diversity index calculation
+- Independent t-test for diversity comparison
+- Mean relative abundance comparison across major taxa
+- Visualization using boxplots and bar charts
+
+## Results
+
+### Shannon Diversity Comparison
+- **T-statistic:** -6.38  
+- **P-value:** 3.0e-07  
+
+The statistically significant p-value (< 0.001) indicates a strong difference in microbial diversity between groups. Clean water samples exhibit higher Shannon diversity compared to contaminated water samples.
+
+### Relative Abundance Patterns
+The bar chart analysis shows:
+
+- **Proteobacteria** enriched in contaminated water
+- **Cyanobacteria** relatively elevated in contaminated samples
+- **Firmicutes** and **Bacteroidetes** more prominent in clean water
+- Moderate variation in Actinobacteria across groups
+
+These patterns suggest ecological imbalance and possible proliferation of opportunistic or environmentally stress-tolerant taxa in contaminated water systems.
+
+## Interpretation
+The observed reduction in microbial diversity in contaminated water may reflect dominance of specific bacterial groups under polluted conditions. Enrichment of Proteobacteria is particularly notable, as members of this phylum are often associated with environmental disturbance and potential pathogenicity.
+
+This computational analysis demonstrates how systems-level microbiome profiling can inform environmental health assessments and water quality monitoring strategies.
+
+## Conclusion
+This project integrates computational analysis with environmental microbiology to explore microbial community shifts in water systems. The findings highlight how statistical and ecological metrics can be used to detect biologically meaningful differences in microbial ecosystems, aligning environmental microbiology with molecular and computational biomedicine approaches.
+
+## Files
+- `microbiome_analysis.py` – Full analysis code
